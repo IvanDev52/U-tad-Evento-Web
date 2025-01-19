@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://st1.u-tad.com/media/2020/11/Ij8G0b_x_400x400-200x200.png">
+        <title>Evento U-tad</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="https://st1.u-tad.com/media/2020/06/logo_utad.png" alt="">
+            </div>
+            <div id="title">
+                <h1>Evento de Programación U-tad</h1>
+            </div>
+            <div id="date">
+                <b>Día 26 de enero del 2025</b>
+                <p>Campus de U-tad, Las Rozas, Madrid</p>
+            </div>
+        </header>
+        <div id="presentation-container">
+            <div id="presentation-content">
+                <img id="pc-1-img" src="img/computadora-3d (1).png" alt="">
+                <h1>Bienvenido al mayor evento de programación de U-tad</h1>
+                <p>¡Bienvenidos al evento tecnológico del año! Descubre las últimas tendencias en programación, participa en talleres interactivos y aprende de expertos del sector. Un evento único diseñado para estudiantes, profesionales y apasionados de la tecnología.</p>
+                <img id="pc-2-img" src="img/computadora-3d.png" alt="">
+            </div>
+            <div id="buttons">
+                <button id="register-btn">Registrarse</button>
+                <button id="calendar-btn">Agenda del evento</button>
+            </div>
+        </div>
+        <div id="table-container">
+            <div id="table-content">
+                <div id="titulos">
+                    <div class="titulo">
+                        <h3>Nombre del ponente</h3>
+                    </div>
+                    <div class="titulo">
+                        <h3>Título del taller</h3>
+                    </div>
+                    <div class="titulo">
+                        <h3>Hora</h3>
+                    </div>
+                </div>
+                <div id="registros">
+                    <div class="registro">
+                        <div class="dato-registro">
+                            <div class="nombre-dato">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/librerias-2f33f.appspot.com/o/Foto%20Roberto.png?alt=media&token=3913d2d0-3edc-478c-97b8-1b24988ef3da" alt="" width="80px" >
+                                <p>Roberto Cruzado Pascual</p>
+                            </div>
+                        </div>
+                        <div class="dato-registro">
+                            <p>MySql</p>
+                        </div>
+                        <div class="dato-registro">
+                            <p>8:00 - 9:00</p>
+                        </div>
+                    </div>
+                    <div class="registro">
+                        <div class="dato-registro">
+                            <div class="nombre-dato">
+                                <img src="https://cdn.icon-icons.com/icons2/3298/PNG/512/ui_user_profile_avatar_person_icon_208734.png" alt="" width="80px" >
+                                <p>Sonia Merayo Gonzalez</p>
+                            </div>
+                        </div>
+                        <div class="dato-registro">
+                            <p>Seguridad en la Nube</p>
+                        </div>
+                        <div class="dato-registro">
+                            <p>9:00 - 10:00</p>
+                        </div>
+                    </div>
+                    <div class="registro">
+                        <div class="dato-registro">
+                            <div class="nombre-dato">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/librerias-2f33f.appspot.com/o/Ana.png?alt=media&token=ed755dcb-714b-46f4-89de-4a3b603ff898" alt="" width="80px" >
+                                <p>Ana Isabel Sanchez Gonzalez</p>
+                            </div>
+                        </div>
+                        <div class="dato-registro">
+                            <p>Introducción a python</p>
+                        </div>
+                        <div class="dato-registro">
+                            <p>10:00 - 11:00</p>
+                        </div>
+                    </div>
+                    <div class="registro">
+                        <div class="dato-registro">
+                            <div class="nombre-dato">
+                                <img src="https://cdn.icon-icons.com/icons2/3298/PNG/512/ui_user_profile_avatar_person_icon_208734.png" alt="" width="80px" >
+                                <p>Andrei Marin Marin</p>
+                            </div>
+                        </div>
+                        <div class="dato-registro">
+                            <p>Html y css</p>
+                        </div>
+                        <div class="dato-registro">
+                            <p>11:00 - 12:00</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+        </div>
+        <div id="register-container">
+            <div id="register-content">
+                <h2>Regístrate para participar en el evento</h2>
+                <form action="">
+                    <label for="nombre">Nombre y Apellidos:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <h4>Talleres a participar</h4>
+                    <div id="checkbox-container">
+                        <div class="checkbox-item">
+                            <label for="taller1">MySql</label>
+                            <input type="checkbox" id="taller1" name="talleres[]" value="MySql">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="taller2">Seguridad en la Nube</label>
+                            <input type="checkbox" id="taller2" name="talleres[]" value="Seguridad en la Nube">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="taller3">Introducción a Python</label>
+                            <input type="checkbox" id="taller3" name="talleres[]" value="Introducción a Python">
+                        </div>
+                        <div class="checkbox-item">
+                            <label for="taller4">Html y css</label>
+                        <input type="checkbox" id="taller4" name="talleres[]" value="Html y css">
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </div>
+            <div id="balls">
+                <div class="ball" id="ball-1"></div>
+                <div class="ball" id="ball-2"></div>
+                <div class="ball" id="ball-3"></div>
+                <div class="ball" id="ball-4"></div>
+                <div class="ball" id="ball-5"></div>
+            </div>
+        </div>
+        <footer>
+            <p>2025 U-tad. Todos los derechos reservados. &#169</p>
+            <br>
+            <a href="#">Politica de privacidad</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">U-tad web</a>
+        </footer>
+    </body>
+</html>
